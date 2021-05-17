@@ -48,10 +48,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Known Bugs
 * highlight directive property does not work properly
 
-## Contact Information 
-
-If you have any question or contributions, please email me at [mikeycharlesm7@gmail.com]
 
 ## License
 * *MIT License:*
-* Copyright (c) 2019 **Abdallah Habib**
+* Copyright (c) 2021 **Abdallah Habib**
