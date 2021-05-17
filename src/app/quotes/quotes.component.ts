@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Quote } from  '../quote';
+import { Quote } from "../quote";
 
 @Component({
   selector: 'app-quotes',
@@ -9,7 +9,7 @@ import { Quote } from  '../quote';
 export class QuotesComponent implements OnInit {
   title = 'welcome to tech quotes';
   quotes:Quote[] = [
-    new Quote (1,'Abdalah','Human spirit','Programming is super cool a reality love it.','Abdallah Habib', new Date(2019,7,12),0,0),
+    new Quote (1,'Abdalah','Human spirit','Programming is super cool a reality love it.','Abdallah Habib', new Date(2021,5,18),0,0),
     new Quote (2,'Rony','Technology…','Technology… the knack of so arranging  that we don’t have to experience it.','Max Frisch',new Date(2019,7,14),0,0),
     new Quote (3,'Ahmed','The great myth','The great myth of our times is that technology is communication.','Libby Larsen',new Date(2019,6,3),0,0),
     new Quote (4,'Beatrice','Communication','Communications tools don’t get socially interesting until they get technologically boring.','Clay Shirky',new Date(2019,7,7),0,0),
