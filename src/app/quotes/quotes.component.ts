@@ -7,14 +7,14 @@ import { Quote } from "../quote";
   styleUrls: ['./quotes.component.css']
 })
 export class QuotesComponent implements OnInit {
-  title = 'welcome to tech quotes';
+  title = 'welcome to quote app';
   quotes:Quote[] = [
-    new Quote (1,'Abdalah','Human spirit','Programming is super cool a reality love it.','Abdallah Habib', new Date(2021,5,18),0,0),
-    new Quote (2,'Rony','Technology…','Technology… the knack of so arranging  that we don’t have to experience it.','Max Frisch',new Date(2019,7,14),0,0),
-    new Quote (3,'Ahmed','The great myth','The great myth of our times is that technology is communication.','Libby Larsen',new Date(2019,6,3),0,0),
-    new Quote (4,'Beatrice','Communication','Communications tools don’t get socially interesting until they get technologically boring.','Clay Shirky',new Date(2019,7,7),0,0),
-    new Quote (5,'Arnold','Code and people','Programs must be written for people to read, and only incidentally for machines to execute.','Harold Abelson',new Date(2019,7,17),0,0),
-    new Quote (6,'Alfred','Tech and life','For a list of all the ways technology has failed to improve the quality of life, please press three.','Alice Kahn',new Date(2019,7,15),0,0)
+    new Quote (1,'Abdalah','Human spirit','Programming is super cool,its just someones passion in it.','Abdallah Habib', new Date(2021,5,16),0,0),
+    new Quote (2,'Rony','Technology…','Technology… the knack of so arranging  that we don’t have to experience it.','Max Frisch',new Date(2021,5,16),0,0),
+    new Quote (3,'Ahmed','The great myth','The great myth of our times is that technology is communication.','Libby Larsen',new Date(2021,5,16),0,0),
+    new Quote (4,'Beatrice','Communication','Communications tools don’t get socially interesting until they get technologically boring.','Clay Shirky',new Date(2021,5,16),0,0),
+    new Quote (5,'Arnold','Code and people','Programs must be written for people to read, and only incidentally for machines to execute.','Harold Abelson',new Date(2021,5,16),0,0),
+    new Quote (6,'Alfred','Tech and life','For a list of all the ways technology has failed to improve the quality of life, please press three.','Alice Kahn',new Date(2021,5,16),0,0)
   ];
   get sortQuotes() {
     return this.quotes.sort((a, b) => {
