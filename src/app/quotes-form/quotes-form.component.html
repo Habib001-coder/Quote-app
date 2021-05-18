@@ -37,7 +37,7 @@
         <input type="text" required class="form-control" id="author"[(ngModel)]="quoted.author" name="author" #author='ngModel'>
         <div *ngIf="title.invalid && title.dirty" class="alert alert-danger">
           <div *ngIf="title.errors.required">
-              Author Name is required.
+              Author Name can not be empty.
           </div>
         </div>
       </div>
