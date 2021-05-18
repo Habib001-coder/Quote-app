@@ -16,6 +16,7 @@ hr{
   color: white;
   text-align: center;
   padding-top: 2%;
+  margin: 2px;
 }
 .container-fluid{
   background-color: rgba(0, 0, 0, 0.374);
