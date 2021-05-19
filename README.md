@@ -7,7 +7,7 @@ Quote-app
 
 This is agular cli application that displays quotes, allow the user to input new quote, upvote , downvote and delete the quote. 
 
-## Live Page 
+## Live link 
 habib001-coder.github.io/quote-app/
 
 ## Development server
